@@ -59,7 +59,7 @@ export default function Header({ onOpenBudgetModal }: HeaderProps) {
             className="flex items-center gap-3 cursor-pointer group"
           >
             <div className="bg-[#fed721] p-1.5 rounded-sm flex items-center justify-center transition-transform group-hover:scale-105 duration-200">
-              <Logo className="h-7 w-7" />
+              <Logo className="h-5 w-5" />
             </div>
             <div className="flex flex-col">
               <span className="font-heading text-xl font-bold text-white tracking-widest leading-none">
