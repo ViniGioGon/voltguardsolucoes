@@ -1,0 +1,6 @@
+{
+  "name": "Voltguard Soluções",
+  "description": "Website corporativo profissional da Voltguard Soluções - Engenharia Elétrica, Projetos, SPDA, Laudos Técnicos e consultoria pioneira em Campinas e região.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
