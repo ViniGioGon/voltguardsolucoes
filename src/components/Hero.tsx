@@ -19,7 +19,7 @@ export default function Hero({ onOpenBudgetModal, onExploreServices }: HeroProps
         <img
           className="w-full h-full object-cover select-none"
           alt="Technical engineering flat lay showcasing electrical precision equipment"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuDF5LC5ho034bkTa6xvPSEHqh54J3_rm98xEq5duzk5_ri8Zh1hsWZ1kTXV6JnnBsvnJopVhv9oDXWkw7bVaTzQthXjkRbzw0gcN7HhwOMMLU4_A4YJeKby7eOp1a1Xr6epJ3J9ppt4vauYC1bYonaRV2ZcyPdlllYt4imFhpscQFDRi9efWRQFzSF0h9ncYO3am_bL8NX9setNOgf_A0cQsjzKig_xrH9sL21bxecUm9cZu7eByWNJUVQIw9R26KuDDY8j2S8iBkE"
+          src="src/img/empresa.png"
           referrerPolicy="no-referrer"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0A1128] via-transparent to-transparent"></div>
@@ -97,7 +97,7 @@ export default function Hero({ onOpenBudgetModal, onExploreServices }: HeroProps
                 <img
                   className="w-full h-full object-cover filter brightness-95 transform transition-transform duration-700 group-hover:scale-105"
                   alt="Engenheiro eletricista qualificado trabalhando na vistoria de painel elétrico de força"
-                  src="https://lh3.googleusercontent.com/aida/ADBb0uhK5MFD5hk2xU1bxXDt_NFyk9RJtAll-D6ihXYSglg4lZNXO-IJnr9zVwlqFU96m2SqMJyAAaKGVtX5yZFyvds7gWPo9L9BI2A7nTMhjxMwReAOCzSDvsW4ytYIxOoEj6Pqxih9_elW2XJcoF62C2cm3k5ws541QDVRFvCxlyPO83M_UhNj_7_fH4H8UdJSFPOlE1giF6K26JyZNnDxyiBDJTgtiHdUiVtA4DPSwAoDKwqIVMn0VYmo7g"
+                  src="src/img/vistoria.png"
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute top-4 right-4 bg-slate-950/80 backdrop-blur-sm border border-slate-705 px-3 py-1 rounded-sm text-[10px] font-mono font-bold text-[#fed721] uppercase tracking-wider">

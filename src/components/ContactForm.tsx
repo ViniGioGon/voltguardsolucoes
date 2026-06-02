@@ -86,7 +86,7 @@ export default function ContactForm() {
                 <MessageCircle size={16} />
               </div>
               <div className="text-left">
-                <span className="text-[10px] font-mono text-gray-400 uppercase tracking-wider block">Whatsapp Primário</span>
+                <span className="text-[10px] font-mono text-gray-400 uppercase tracking-wider block">Whatsapp Técnico</span>
                 <span className="text-sm font-semibold text-white">(19) 99177-2139</span>
               </div>
             </div>
@@ -96,8 +96,18 @@ export default function ContactForm() {
                 <MessageCircle size={16} />
               </div>
               <div className="text-left">
-                <span className="text-[10px] font-mono text-gray-400 uppercase tracking-wider block">Whatsapp Secundário</span>
+                <span className="text-[10px] font-mono text-gray-400 uppercase tracking-wider block">Whatsapp Engenheiro</span>
                 <span className="text-sm font-semibold text-white">(19) 99483-7513</span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              <div className="w-10 h-10 bg-slate-900 border border-slate-800 flex items-center justify-center rounded-sm text-[#fed721]">
+                <MessageCircle size={16} />
+              </div>
+              <div className="text-left">
+                <span className="text-[10px] font-mono text-gray-400 uppercase tracking-wider block">Whatsapp Engenheiro</span>
+                <span className="text-sm font-semibold text-white">(19) 99715-9418</span>
               </div>
             </div>
 

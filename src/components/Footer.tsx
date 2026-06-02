@@ -127,6 +127,10 @@ export default function Footer() {
               <span className="text-gray-300 font-mono">(19) 99483-7513</span>
             </li>
             <li className="flex items-center gap-3">
+              <MessageCircle size={16} className="text-[#fed721] shrink-0" />
+              <span className="text-gray-300 font-mono">(19) 99715-9418</span>
+            </li>
+            <li className="flex items-center gap-3">
               <Mail size={16} className="text-[#fed721] shrink-0" />
               <span className="text-gray-300 font-mono break-all leading-none">voltguardsolucoes@gmail.com</span>
             </li>

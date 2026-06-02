@@ -16,7 +16,7 @@ export const SERVICES: Service[] = [
     shortDescription: "Dimensionamento detalhado e esquemas de proteção unifilares para baixa e média tensão.",
     longDescription: "Planejamento estruturado para novas plantas industriais, readequações comerciais e residências de alto padrão. Nossos projetos incluem diagramas unifilares detalhados, memorial de cálculo de demanda, dimensionamento rigoroso de condutores e eletrodutos, barramentos de distribuição otimizados e especificações técnicas de todos os materiais conformes às exigências de concessionárias locais.",
     iconName: "FileSpreadsheet",
-    image: "https://lh3.googleusercontent.com/aida/ADBb0uhZLdMUgg9vmSnjNj5OBI88gUnLK5JTAPqZlRabquBcJv3ZYqynwieMJW8W2T_1drIE8rwe-HjfpOhmkUgHUPqXjAAjVYNT7ZjEkYNZgeaIWbV0odUjlq96BYQ-VfQYoaov82VwCZjRl9AeiZeNJatBqMJNRTlUPoetOYtZEM9YqVvRaum_mQDEk5Go2C1JQpk2O8bDLJlXCHFFcuUq7DIV0xqiyJAVPganoo086ZV5BDS1hFtc1xisQ64",
+    image: "src/img/diagrama.png",
     normas: ["ABNT NBR 5410", "Concessionárias (CPFL, etc.)", "NR-10"]
   },
   {
@@ -25,7 +25,7 @@ export const SERVICES: Service[] = [
     shortDescription: "Vistoria e auditoria do prontuário técnico de instalações elétricas para plena conformidade.",
     longDescription: "Inspeção em campo minuciosa para avaliação física e documental das instalações. Ideal para renovação de AVCB de bombeiros, auditoria de seguradoras, fiscalização do Ministério do Trabalho e gestão interna de riscos. O serviço acompanha relatório termográfico das conexões e barramentos sob carga com emissão imediata da correspondente ART do engenheiro fiscal.",
     iconName: "ClipboardCheck",
-    image: "https://lh3.googleusercontent.com/aida/ADBb0uhVMzw-jhnJE-f_JXSKg71LWBBjVZA9Jhxyz3EOizVmUxR96wU8oUWXLdrdWQG83l6g3eW9XEI27a71IcRjD3fzz2LspEfe3eLXbHa5-bEWqkSwqW-Ho3GJuJ-NX3C4VjFKIKfSkbDVRIfFPkdlz7tO66F3In2y3zmVs2ug-0xuYZdF9A3Be6iXOS7dItackfswa3zZx_QHKxLOQa4jKBjBg1s5MI_J1fbpM-9gTYi5Yd2MPO7xWI_-ow",
+    image: "src/img/laudo.png",
     normas: ["ABNT NBR 5410", "MTE NR-10", "Instruções Técnicas de Bombeiros"]
   },
   {
@@ -34,7 +34,7 @@ export const SERVICES: Service[] = [
     shortDescription: "Sistemas de proteção contra descargas atmosféricas sintonizados com a norma NBR 5419.",
     longDescription: "Desenvolvimento e dimensionamento de malhas de aterramento complexas e captações aéreas por gaiola de Faraday ou método Franklin. Realizamos medições oficiais de resistência do solo pelo método de quatro eletrodos (Wenner) e geramos laudos de conformidade com diagramas de cobertura de proteção.",
     iconName: "Zap",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAGP2jiwajJ-3LbMUMPy9VOoNq0BpflfIQGVmW_xglSt66lJRx2GdBg9s8mWTPK_tTIK4sYvA0_ADVCoLmxepAlyvHWxweBh4nG_WzOq89WLrZ-OljzETZ8ZrNTRF0pjQkwxGPJu7MUy5VfaHH0gBVDsTN_d9dCWf3-HgZBuxYen7I3-amuAAOIL1wQxOwc_JfT3Zc4kHi1e7i8oMyt0L5y6EYlYmsSakxE09ionT1LXRX7QFngKZ5top8Wy9KOyavkMr3CvW9EOvA",
+    image: "src/img/resistividade.png",
     normas: ["ABNT NBR 5419:2015", "NBR 15749 (Medição de Resistência)"]
   },
   {
@@ -43,7 +43,7 @@ export const SERVICES: Service[] = [
     shortDescription: "Engenharia de montagem, seletividade e modernização de quadros de distribuição elétrica.",
     longDescription: "Retrofit e montagem profissional de Quadros de Distribuição (QGD), painéis de comando de bombas e motores, CCM (Centro de Controle de Motores) e bancos automáticos de capacitores para correção do fator de potência. Garantimos barramentos isolados, identificação anilhada das conexões, diagramas de porta atualizados e proteção IP contra toques acidentais em conformidade industrial rígida.",
     iconName: "Cpu",
-    image: "https://lh3.googleusercontent.com/aida/ADBb0uioRtAIC70IQwaJarFlh3nLTCrzNB1-bUhetGfDw_MnNUKL5-58P-SVa9ZGxprbycLsgOfA9T_0pJA-0PPeMOP-1HIlUDmmp4EzAUrzeZiQEKEC8cyPBcW3d0ObRdc3hUA-z_p8WKZugZbVIryG3pI0-A0p6Ndax58ZoeOwkyieWHtgTBxjvOb_c3J3DLTHnm0xYzX2uGle1dUHY7dgbET7GhCnniREM3ljWJte3AXiySyct3ZJ4anIqlk",
+    image: "src/img/automacao.png",
     normas: ["ABNT NBR IEC 61439-1", "NR-12 (Segurança de Máquinas)"]
   },
   {
@@ -52,7 +52,7 @@ export const SERVICES: Service[] = [
     shortDescription: "Análise avançada de qualidade de energia, fator de potência e atenuação de harmônicos.",
     longDescription: "Análise de perfil de carga através de analisadores digitais instalados temporariamente nos principais barramentos. Diagnosticamos a origem de perturbações na rede, distorções harmônicas que causam queima de placas eletrônicas e sugerimos as ações corretivas prioritárias para mitigar multas por excesso de reativos faturados.",
     iconName: "Activity",
-    image: "https://lh3.googleusercontent.com/aida/ADBb0ui_7sRvtmvHcPS5-Oc0bBcPeN72zpfI6xDMvFZkGBsyMk9wEjD3qR9BupK5Tz7WBFupmV-tTebM49bH_GcBsXE-oHbq6SiqWj9Eej_Ul2kS6QZz2Mb3znkJq2SfmRtKrKpR1eao8sxfZeJ92OySAFzRjkDe0ugeT1n3cbnA7Dx55qaEMMKY3bc7Yy_4SS0sBX5s3kmKBR9g3DsMhgb46omVvosQe7-34pxsMGwx_dmnyBQyFBZpKsxtMpY",
+    image: "src/img/eficiencia.png",
     normas: ["Resoluções Normativas da ANEEL", "Prodist Módulo 8"]
   },
   {
@@ -61,7 +61,7 @@ export const SERVICES: Service[] = [
     shortDescription: "Modernização completa de infraestrutura antiga visando alto índice de reprodução de cor, menor manutenção e consumo.",
     longDescription: "Cálculos luminotécnicos detalhados usando softwares de simulação para áreas industriais e escritórios corporativos. Calculamos o nível ideal de iluminância (lux) exigido por postos de trabalho em conformidade técnica, com o melhor arranjo geométrico de projetores industriais LED e calhas de distribuição.",
     iconName: "Lightbulb",
-    image: "https://lh3.googleusercontent.com/aida/ADBb0uiHseslqPJiMR6IDDMENqEwxbO0_C9407R4tc2ijMZHjalbIrIgMVdWK0Z-HXJCcDmGV1Ogngw9dMcK7ZZa67wyFBF2c2hz2npmyQYD4xMMMrdTS2oh1YItnwi8mPqOnvHdp4upt3qk2r3kCVSvRlT1bDnPvTWJ-zzv5m-vgMRyY3iUirlhaIO4RvF5Vdb4Otu8iqj7bdRxRcEpmHtTEe-VLSvbspLXv1UsDQsd-tj3FzMuaP3ZaUSa7dg",
+    image: "src/img/iluminacao.png",
     normas: ["ABNT NBR ISO/CIE 8995-1", "NR-17 (Ergonomia no Trabalho)"]
   }
 ];
@@ -73,7 +73,7 @@ export const PROJECTS: Project[] = [
     location: "Sumaré - SP",
     category: "Industrial",
     description: "Análise técnica integral e projetos executivos de distribuição de alta potência para expansão de planta industrial automatizada.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBsSo9uY0Pf58Fqc1AITkFJgJwBzTyeQa6ofx_W223JHxEKvCW6lZiDt3xcXBAVxHrHrGAdGi26KN45gJp3TSI6rev7K0ZE5ZIX9Qgb-uX4uTlrpm3JmKiNRCgiIMl2BqL72trMj6-hNaAoKOxrO7p_tV0VMeYzw-crc5vntv-KAK_kMTlwbHZv3e4x5WIMQgs8jqsLfOEaYMz0Alzq7cBf4QFSlsR58_4QiZT9OyzhF3VK8dlmwStNbGXM5qBExk04Ef4B9VqS3Mg",
+    image: "src/img/subestacao.png",
     longDescription: "Estudo detalhado de coordenação e seletividade da proteção na expansão de cabine primária industrial de 13.8kV. O escopo abrangeu o projeto de novos barramentos de distribuição de 380V, malha subterrânea de aterramento protetivo, dimensionamento dos leitos de cabos principais e bancos automáticos de capacitores para compensação rápida de potência reativa excedente na linha de usinagem pesada.",
     specs: [
       { label: "Potência Instalada", value: "750 kVA" },
@@ -88,7 +88,7 @@ export const PROJECTS: Project[] = [
     location: "Campinas - SP",
     category: "Residencial",
     description: "Laudo, atualização do sistema de malha captora contra descargas atmosféricas e modernização luminotécnica de condomínio de alto padrão.",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuD_DxMqax5JTCTR6Vx49KUVjfWXyprp3rSXD6GZkNej3-Tm07s8ylKXXzVZ7T5SdKtaxBvqf0GDW5ZtJPSfc79TfVBj_GzDHkrDrgDyXpwl5uRbkm6b5rZslMKzoBDVPRHfZFivjIpH61Yl_yytjEmOZKYtjiGUPcEhsH02x9Uyb9iM_66ZzHKZoVRlCfgB_mxy7yMSVI03hHd-RBpU_69qpCGGIZXBi6gAZX3kN_6Dpel9wSB3DRr7gJRbuDYBtln0QkWhYGmj3Y0",
+    image: "src/img/condominio.png",
     longDescription: "Readequação integral do subsistema de captação e descida do SPDA em conformidade com as restrições atualizadas da norma ABNT NBR 5419:2015. Em paralelo, foi desenvolvido o retrofit da iluminação externa comum do condomínio para tecnologia LED de alta durabilidade, resultando em mais de 45% de redução imediata dos custos de iluminação nas áreas de lazer e guaritas permanentes.",
     specs: [
       { label: "Norma SPDA Utilizada", value: "NBR 5419:2015 (Classe III)" },
@@ -103,7 +103,7 @@ export const PROJECTS: Project[] = [
     location: "Hortolândia - SP",
     category: "Industrial",
     description: "Projeto e execução técnica de painel CCM de alta confiabilidade para controle centralizado de infraestrutura predial comercial complexa.",
-    image: "https://lh3.googleusercontent.com/aida/ADBb0uiewYw2Hy2xt5zd2IPJKnVTYcdBeOZOjJYluQN8XgZoijvzEDG0_t0v43ptrdToky4cvduGDWKkHGnxL0HIEua7od7cUM1-xPPSNFaWAnIKD_A97DA0LyuW6jqG8089CUlzbaEg2rIhvQXAJvtEfoV7rRS1ZoPVCxVMcpIDV0XiB9VN4SgwN7UJk9BQEyfR7C8Nl-5kgDot2tKVXJ6Jup3ro1-KnA9PbZOsQYEpKt3zIMrNEo2XWjpA1YI",
+    image: "src/img/retrofit.png",
     longDescription: "Substituição completa de painéis elétricos com graves não-conformidades de proteção térmica por estruturas modulares novas equipadas com disjuntores de caixa moldada de última geração. O sistema conta agora com contatores eletrônicos monitorados por redes industriais, relés térmicos inteligentes contra sobrecarga e intertravamento de segurança redundante para manutenção preventiva rápida.",
     specs: [
       { label: "Número de Motores", value: "14 Partidas Est-Tri" },
@@ -118,7 +118,7 @@ export const PROJECTS: Project[] = [
     location: "Valinhos - SP",
     category: "Comercial",
     description: "Vistoria termográfica detalhada sob plena carga térmica operacional para identificação preventiva de pontos quentes em supermercados de atacado.",
-    image: "https://lh3.googleusercontent.com/aida/ADBb0uioRtAIC70IQwaJarFlh3nLTCrzNB1-bUhetGfDw_MnNUKL5-58P-SVa9ZGxprbycLsgOfA9T_0pJA-0PPeMOP-1HIlUDmmp4EzAUrzeZiQEKEC8cyPBcW3d0ObRdc3hUA-z_p8WKZugZbVIryG3pI0-A0p6Ndax58ZoeOwkyieWHtgTBxjvOb_c3J3DLTHnm0xYzX2uGle1dUHY7dgbET7GhCnniREM3ljWJte3AXiySyct3ZJ4anIqlk",
+    image: "src/img/termografia.png",
     longDescription: "Análise técnica executada em comércios de grande porte com câmeras termográficas de alta precisão. Foi possível mapear com precisão conexões frouxas e disjuntores operando acima da temperatura nominal devido a desbalanço de correntes entre as fases da rede. A consultoria evitou panes de interrupção operacional catastróficas em sistemas de refrigeração alimentícia essenciais.",
     specs: [
       { label: "Quadros Auditados", value: "24 Painéis Gerais" },
