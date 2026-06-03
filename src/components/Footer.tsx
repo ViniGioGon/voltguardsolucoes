@@ -6,7 +6,7 @@
 import React from "react";
 import { BRAND_NAME } from "../data";
 import Logo from "./Logo";
-import { MapPin, Phone, Mail, Award, ArrowUp, MessageCircle } from "lucide-react";
+import { MapPin, Mail, Award, ArrowUp, MessageCircle, ShieldCheck } from "lucide-react";
 
 export default function Footer() {
   const handleScrollTop = () => {
@@ -115,7 +115,7 @@ export default function Footer() {
             <li className="flex items-start gap-3">
               <MapPin size={16} className="text-[#fed721] shrink-0 mt-0.5" />
               <span className="leading-tight text-gray-300">
-                Campinas, Sumaré, Hortolândia, Valinhos, Vinhedo & região.
+                Sumaré, Campinas & região.
               </span>
             </li>
             <li className="flex items-center gap-3">
@@ -133,6 +133,10 @@ export default function Footer() {
             <li className="flex items-center gap-3">
               <Mail size={16} className="text-[#fed721] shrink-0" />
               <span className="text-gray-300 font-mono break-all leading-none">voltguardsolucoes@gmail.com</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <ShieldCheck size={16} className="text-[#fed721] shrink-0" />
+              <span className="text-gray-300 font-mono break-all leading-none">CNPJ: 65.312.228/0001-62</span>
             </li>
           </ul>
         </div>
